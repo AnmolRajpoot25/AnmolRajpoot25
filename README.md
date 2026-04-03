@@ -33,7 +33,7 @@
 <div align="center">
 <details>
 <summary style="cursor: pointer;">
-  <img src="https://img.shields.io/badge/🔥_CLICK_TO_EXPAND-PEEK_UNDER_THE_HOOD_OF_MY_AI_SYSTEMS-00F7FF?style=for-the-badge&logo=rocket&logoColor=black&labelColor=1e1e1e" alt="Expand Button" />
+  <img src="https://img.shields.io/badge/🔥_CLICK_TO_EXPAND-PEEK_UNDER_THE_HOOD_OF_MY_AI_SYSTEMS-red?style=for-the-badge&logo=rocket&logoColor=black&labelColor=pink" alt="Expand Button" />
 </summary>
 
 <br>
