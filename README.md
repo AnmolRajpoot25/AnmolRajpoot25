@@ -239,17 +239,6 @@ graph LR
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="800" />
 </p>
 
-## 📈 GitHub & Coding Activity
-
-### 🏆 GitHub Dashboard
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=AnmolRajpoot25&theme=radical&no-frame=true&no-bg=true"/>
-</p>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AnmolRajpoot25&show_icons=true&theme=tokyonight" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AnmolRajpoot25&theme=tokyonight" width="48%" />
-</div>
 
 ### 🎯 Problem Solving Profiles
 <div align="center">
