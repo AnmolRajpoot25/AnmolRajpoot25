@@ -259,7 +259,7 @@ graph LR
 <img src="https://img.shields.io/badge/View%20Detailed%20Stats%20on%20Codolio-121212?style=for-the-badge&logo=codeforces&logoColor=00F7FF" />
 </a>
 
-<img src="https://img.shields.io/badge/DSA-400%2B%20Problems%20Solved-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DSA-650%2B%20Problems%20Solved-success?style=for-the-badge" />
 
 </td>
 </tr>
