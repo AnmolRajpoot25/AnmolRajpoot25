@@ -51,11 +51,7 @@
 
 ---
 
-## 🚀 <span style="color:#00F7FF">Engineering Arsenal & Flagship Systems</span>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=header&text=Architectural%20Blueprints%20%26%20Deep%20Dives&fontSize=24&fontAlignY=45&animation=twinkling" width="100%" />
-</div>
+## 🚀 What I've Built
 
 <div align="center">
 <details open>
@@ -67,7 +63,7 @@
 
 <div align="left">
 
-### 1️⃣ [LLM as Judge Platform](https://github.com/AnmolRajpoot25/LLM_as_Judge)
+### 1️⃣ LLM as Judge Platform
 > **Fine-tuned LLM evaluation platform with pairwise judging, position-bias elimination, and structured telemetry.**
 - **Tech Stack:** `PyTorch 2.x` • `Qwen 2.5-7B` • `PEFT / LoRA (r=16, α=32)` • `FastAPI` • `React 18` • `TypeScript`
 - **Key Milestones:** **91% accuracy** on a 100-case hard benchmark; swap-augmentation training eliminates order bias; guarantees 100% valid JSON schema output.
@@ -88,15 +84,11 @@ flowchart LR
         E -->|Consistent| F["Structured JSON Telemetry"]
         E -->|Bias Detected| G["Flagged Calibration Loop"]
     end
-
-    style Input fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style FineTunedModel fill:#0d1117,stroke:#FFD700,stroke-width:2px,color:#fff
-    style Decision fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
 
-### 2️⃣ [Zira Automation Agent](https://github.com/AnmolRajpoot25/Zira_automation_Agent) • [🌐 Live Demo](https://zira-automation-agent.onrender.com/)
+### 2️⃣ Zira Automation Agent
 > **Autonomous Jira agent executing complex issue lifecycles via authenticated Model Context Protocol (MCP) tool calls.**
 - **Tech Stack:** `Gemini 2.5 Flash` • `FastAPI (Asyncio)` • `Model Context Protocol (MCP)` • `OAuth 2.0 (3LO)` • `Neon PostgreSQL` • `Cloudflare Workers` • `Fernet-256`
 - **Key Milestones:** Authenticated 4+ step issue workflows; encrypted token storage; 9+ typed MCP Jira tools.
@@ -119,15 +111,11 @@ flowchart LR
         OAUTH --> JIRA[("Jira Cloud REST API v3")]
         AG --> NEON[("Neon PostgreSQL (Chat History)")]
     end
-
-    style Client fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style Reasoning fill:#0d1117,stroke:#8B5CF6,stroke-width:2px,color:#fff
-    style Integration fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
 
-### 3️⃣ [GPT-Style LLM from Scratch](https://github.com/AnmolRajpoot25/AI_personal_assistant_LLM_from_scratch)
+### 3️⃣ GPT-Style LLM from Scratch
 > **PyTorch implementation of a generative causal language model from byte-pair tokenization to FastAPI serving.**
 - **Tech Stack:** `PyTorch 2.x` • `Causal Decoder Blocks` • `Masked Multi-Head Attention` • `BPE (50k Vocab)` • `LayerNorm & GELU` • `FastAPI`
 - **Key Milestones:** Implemented token & position embeddings, residual connections, causal masking, pretraining loop, instruction fine-tuning, and top-k/top-p nucleus sampling.
@@ -140,15 +128,11 @@ flowchart LR
     D --> E["Feed-Forward Networks (GELU + LayerNorm)"]
     E --> F["Pretraining & SFT Loop"]
     F --> G["FastAPI Top-K / Top-P Sampling Engine"]
-
-    style A fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style D fill:#0d1117,stroke:#FFD700,stroke-width:2px,color:#fff
-    style G fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
 
-### 4️⃣ [Medical Chatbot & Semantic RAG](https://github.com/AnmolRajpoot25/medical_chatbot)
+### 4️⃣ Medical Chatbot & Semantic RAG
 > **Document-grounded healthcare assistant with dense vector search, similarity thresholding, and hallucination reduction.**
 - **Tech Stack:** `Flask` • `FAISS (IndexFlatL2)` • `Sentence Transformers (all-MiniLM-L6-v2)` • `PyPDF` • `Hugging Face`
 - **Key Milestones:** 384-dimensional dense semantic search; semantic overlap chunking; grounded context verification.
@@ -160,15 +144,11 @@ flowchart LR
     FAISS --> CTX["Top-K Medical Knowledge Passages"]
     CTX --> LLM["LLM Grounded Response Generation"]
     LLM --> OUT["Verified Medical Synthesis"]
-
-    style UQ fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style FAISS fill:#0d1117,stroke:#FFD700,stroke-width:2px,color:#fff
-    style OUT fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
 
-### 5️⃣ [Multi-Source Research Agent](https://github.com/AnmolRajpoot25/research-AI_agent)
+### 5️⃣ Multi-Source Research Agent
 > **LangGraph-driven cyclical agent coordinating live web searches and scientific arXiv retrieval to formulate cited technical briefs.**
 - **Tech Stack:** `LangGraph (Cyclical StateGraph)` • `LangChain v0.3` • `Groq LPU (Llama-3-70B @ 750 t/s)` • `Tavily Search API` • `arXiv REST API` • `Streamlit`
 - **Key Milestones:** Autonomous cyclical routing; multi-source factual verification; dynamic abstract synthesis with citations.
@@ -186,15 +166,11 @@ flowchart TD
     EVAL --> HYP{"Sufficiency Threshold Met?"}
     HYP -->|"Need More Data"| LG
     HYP -->|"Verified"| REP["Structured Markdown Brief with Citations"]
-
-    style Q fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style LG fill:#0d1117,stroke:#FFD700,stroke-width:2px,color:#fff
-    style REP fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
 
-### 6️⃣ [Smart Ingestion & Vector Retrieval Engine](https://github.com/AnmolRajpoot25/smart-ingestion-engine)
+### 6️⃣ Smart Ingestion & Vector Retrieval Engine
 > **High-throughput document ingestion with sliding token overlap, SHA-256 deduplication, and Qdrant vector indexing.**
 - **Tech Stack:** `Python 3.12 Asyncio` • `Qdrant Vector DB` • `Sentence Transformers` • `PyPDF` • `FastAPI`
 - **Key Milestones:** Structure-aware markdown/PDF hierarchy parsing; customizable token overlap windows; batch-optimized dense vector embeddings.
@@ -206,10 +182,6 @@ flowchart LR
     DEDUP --> EMB["Sentence Transformers (all-MiniLM-L6-v2)"]
     EMB --> QDR[("Qdrant Vector DB + Payload Metadata")]
     QDR --> RET["Dense Top-K Context Retrieval"]
-
-    style DOC fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style QDR fill:#0d1117,stroke:#8B5CF6,stroke-width:2px,color:#fff
-    style RET fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -226,21 +198,15 @@ flowchart LR
     MP --> GEO["Euclidean Distance Geometry"]
     GEO --> SM{"Gesture Trigger State Machine"}
     SM --> ACT["OS / Canvas Control Action"]
-
-    style CAM fill:#0d1117,stroke:#00F7FF,stroke-width:2px,color:#fff
-    style MP fill:#0d1117,stroke:#FFD700,stroke-width:2px,color:#fff
-    style ACT fill:#0d1117,stroke:#00FFB3,stroke-width:2px,color:#fff
 ```
 
 </div>
 </details>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="900" />
-</p>
+---
 
-## 🛠️ <span style="color:#00FFB3">Technical Skills & Ecosystem</span>
+## 🛠️ Technical Skills & Ecosystem
 
 <table align="center" width="100%">
   <tr>
@@ -285,11 +251,9 @@ flowchart LR
   <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,flask,postgres,docker,gcp,linux,git,cpp,js,react,vscode" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="900" />
-</p>
+---
 
-## 🎯 <span style="color:#FFD700">Problem Solving & Algorithms</span>
+## 🎯 Problem Solving & Algorithms
 
 <div align="center">
   <table>
@@ -313,41 +277,3 @@ flowchart LR
   </table>
 </div>
 
----
-
-## 📈 <span style="color:#8B5CF6">GitHub Telemetry</span>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnmolRajpoot25&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00FFB3&text_color=E6EDF3" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnmolRajpoot25&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=FFD700&currStreakLabel=00FFB3" height="165" alt="GitHub Streak" />
-</div>
-
----
-
-## 💼 Experience & Leadership Highlights
-
-- 🏢 **AI Intern @ Solvor (Nov 2025 – Jan 2026):** Engineered an LLM revision assistant and MCQ generator with LangChain and FastAPI; achieved a **20%+ improvement in response relevance**.
-- 🔬 **Research Intern @ IIIT Bhopal (Feb 2026 – Apr 2026):** Conducted short-term solar load forecasting over the Ausgrid dataset (300+ households, 3+ years), benchmarking Random Forest, XGBoost, and PyTorch LSTMs.
-- 🎓 **Vice President @ ARC, IIIT Bhopal:** Led career mentorship sessions and coding workshops for **350+ undergraduate students**.
-
----
-
-## 🤝 Let's Collaborate & Connect
-
-Whether you want to discuss **LLM evaluations**, **agentic workflows**, **distributed AI pipelines**, or open opportunities:
-
-<p align="center">
-  <a href="mailto:rajpootanmol779@gmail.com">
-    <img src="https://img.shields.io/badge/Email-rajpootanmol779@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/anmol-rajpoot-b5b770290">
-    <img src="https://img.shields.io/badge/LinkedIn-Anmol_Rajpoot-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://drive.google.com/file/d/1b8CqxKuY6dxMMgAcDl0wRsYY87IyRSiJ/view?usp=sharing">
-    <img src="https://img.shields.io/badge/Resume-Download_PDF-34A853?style=for-the-badge&logo=googledrive&logoColor=white"/>
-  </a>
-</p>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=FFD700&center=true&vCenter=true&width=650&lines=Build+systems,+not+just+models.+%F0%9F%9A%80" />
-</div>
